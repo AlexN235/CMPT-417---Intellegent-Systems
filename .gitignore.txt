@@ -1,0 +1,4 @@
+.git
+code/*.pcy
+code/__pycache__/
+code/results.csv
