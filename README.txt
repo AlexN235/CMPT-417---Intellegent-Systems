@@ -28,3 +28,38 @@ Based code from previous assignment:
 - single_agent_planner.py
 - cbs.py
 - independent.py
+
+libraries used:
+• argparse
+• glob
+• itertools
+• copy
+• math
+• time
+• heapq
+• random
+• numpy
+• matplotlib
+These libraries are also listed in the requirements.txt.
+##############
+TO RUN
+##############
+A simple example to run the code:
+python run_experiments.py --instance instances/exp0.txt --solver CBS --heuristic CG
+
+--instance: 
+Directory of the map to be solved. These can be any of the text files inside the instances, custominstances, or largeinstances folder. To run a batch, use the --batch arguement and reference the directory for the set of maps to solve.
+
+--solver:
+Finds agent's path 
+CBS - using conflict based search.
+Independent - independently from other agents.
+Prioritized - by randomly prioritizing certain agents over others. (may fail based on which agents are prioritized first.)
+
+--heuristic:
+Solves using the three heuristics described above.
+CG
+DG
+WDG
+
+
