@@ -1,4 +1,4 @@
 .git
-code/*.pcy
+code/*.pyc
 code/__pycache__/
 code/results.csv
